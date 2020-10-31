@@ -1,10 +1,11 @@
-#!name=抖音
-#!desc=去广告,去水印.
+#!name=TikTok China
+#!desc=TikTok China watermark
 #!system=ios
 
 # subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/TikTokChinaAds.sgmodule
 # author：0haizhu0@gmail.com
 # source：https://github.com/NobyDa/Script/blob/master/Surge/Module/TikTokChinaAds.sgmodule
+# update：Aug 31, 2020
 
 [Script]
 抖音去广告&水印req = type=http-request,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/TikTokChinaAds.js
