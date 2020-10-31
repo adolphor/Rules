@@ -1,0 +1,63 @@
+DOMAIN-KEYWORD,datou
+DOMAIN-KEYWORD,bighead
+DOMAIN-KEYWORD,paragon
+DOMAIN-KEYWORD,apache-mirror
+DOMAIN-SUFFIX,linux-ia64.org
+DOMAIN-SUFFIX,1drv.com // safeincloud
+DOMAIN-SUFFIX,500px.com // picture website
+DOMAIN-SUFFIX,64clouds.com
+DOMAIN-SUFFIX,api.segment.io // docker
+DOMAIN-SUFFIX,akamaized.net // 外国CDN网站，Microsoft Office 使用
+DOMAIN-SUFFIX,azurewebsites.net // ci网站，Microsoft Office 使用
+DOMAIN-SUFFIX,amazon.com // amazon
+DOMAIN-SUFFIX,amazonaws.com // amazon
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,aixcoder.com
+DOMAIN-SUFFIX,bintray.com // brew repository
+DOMAIN-SUFFIX,cataspboa.site
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cloudflare-dns.com // 来源：telegram
+DOMAIN-SUFFIX,charlesproxy.com
+DOMAIN-SUFFIX,crisp.chat
+DOMAIN-SUFFIX,cdn.sstatic.net
+DOMAIN-SUFFIX,coursera.org
+DOMAIN-SUFFIX,en.bab.la
+DOMAIN-SUFFIX,getpostman.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,gradle.org
+DOMAIN-SUFFIX,gee.cs.oswego.edu // Scalable IO in Java 作者官网
+DOMAIN-SUFFIX,ilovepdf.com
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,jekyllthemes.org
+DOMAIN-SUFFIX,kapeli.com // dash
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,mycdn.co
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,mirror.os6.org // qt
+DOMAIN-SUFFIX,mycdn.co
+DOMAIN-SUFFIX,nektony.com // app cleaner pro
+DOMAIN-SUFFIX,office.com // Microsoft office
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,infopicked.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,pstmn.io
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,right.com.cn
+DOMAIN-SUFFIX,rubygems.org // ruby
+DOMAIN-SUFFIX,sw-update.obdev.at // little snitch
+DOMAIN-SUFFIX,segmentfault.com
+DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,textnow.com // 美国虚拟电话卡
+DOMAIN-SUFFIX,travis-ci.org // IT
+DOMAIN-SUFFIX,travis-ci.com // IT
+DOMAIN-SUFFIX,vmware.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,yandex.ru // 虚拟信用卡
+IP-CIDR,140.82.114.4/32 // github
+
+
