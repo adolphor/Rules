@@ -1,0 +1,32 @@
+#!name= ZhiHu
+#!desc= Remove ZhiHu Ads (ZhiHu Version:6.45.0)
+#!system=ios
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/Zhihu.sgmodule
+# author：onewayticket255
+# source：https://github.com/onewayticket255/Surge-Script/blob/master/module/zhihu.sgmodule
+# update：Jun 18, 2020
+
+[Rule]
+
+//SOME MCN INFO MAY BE USEFUL
+//URL-REGEX,https://www.zhihu.com/api/v4/mcn/,REJECT
+
+DOMAIN,appcloud2.zhihu.com,REJECT
+
+//DO NOT GET CDN-BASED IP
+DOMAIN,118.89.204.198,REJECT
+
+USER-AGENT,AVOS*,REJECT
+URL-REGEX,https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad),REJECT
+AND,((USER-AGENT,ZhihuHybrid*), (URL-REGEX,.*recommend)),REJECT
+
+[Script]
+zhihu people = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/people/,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/zhihu/zhihu-people.js
+zhihu feed = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/moments/recommend,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/zhihu/zhihu-feed.js
+zhihu recommend = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/topstory/recommend,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/zhihu/zhihu-recommend.js
+zhihu answer = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/v4/questions,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/zhihu/zhihu-answer.js
+zhihu link = type=http-request,pattern=https?://link.zhihu.com/\?target=,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/zhihu/zhihu-link.js
+
+[MITM]
+hostname = %APPEND% www.zhihu.com, api.zhihu.com, link.zhihu.com, 118.89.204.198
