@@ -1,0 +1,14 @@
+#!name=抖音
+#!desc=去广告,去水印.
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/Surge/sgmodule/JoyoDns.sgmodule
+# author：0haizhu0@gmail.com
+
+[Host]
+*.joyoung.com = script:script_joyo_dns
+
+[Script]
+script_joyo_dns = type=dns, script-path=https://raw.githubusercontent.com/adolphor/Rules/Surge/js-list/joyo_dns.js
+
+[MITM]
+hostname = %APPEND% *.joyoung.com
