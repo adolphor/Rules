@@ -1,0 +1,13 @@
+#!name= BiliBili
+#!desc= Remove BiliBili Ads (BiliBili Version:6.2.1)
+#!system=ios
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/Bilibili.sgmodule
+# author：onewayticket255
+
+[Script]
+ads-wechat = type=http-request, requires-body=1, max-size=0, pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad, script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/wechat/WeChat.js
+
+[MITM]
+hostname = %APPEND% mp.weixin.qq.com
+
