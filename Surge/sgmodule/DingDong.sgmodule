@@ -1,0 +1,9 @@
+#!name=Cron 叮咚买菜
+#!desc=Cron 叮咚买菜签到
+#!system=ios
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/DingDong.sgmodule
+# author：0haizhu0@gmail.com
+
+[Script]
+Cron 叮咚买菜 = type=cron, cronexp=30 33 8 * * *, wake-system=1,timeout=20, script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/dingdong/DingDong.js

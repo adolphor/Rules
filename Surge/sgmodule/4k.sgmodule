@@ -1,0 +1,9 @@
+#!name=Cron 4k
+#!desc=Cron 4k movie
+#!system=ios
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/4k.sgmodule
+# author：0haizhu0@gmail.com
+
+[Script]
+Cron 4k = type=cron,cronexp=30 32 8 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/4k-env.js

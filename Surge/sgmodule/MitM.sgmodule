@@ -1,0 +1,8 @@
+#!name=MitM
+#!desc=Allows MitM for all hostnames on all ports, excludes the appointed ones.
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/MitM.sgmodule
+# author：0haizhu0@gmail.com
+
+[MITM]
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.twitter.com, -*.instagram.com, -sessions.bugsnag.com, *:0

@@ -9,12 +9,11 @@
 
 [Rule]
 
-//SOME MCN INFO MAY BE USEFUL
-//URL-REGEX,https://www.zhihu.com/api/v4/mcn/,REJECT
-
+# SOME MCN INFO MAY BE USEFUL
+URL-REGEX,https://www.zhihu.com/api/v4/mcn/,REJECT
 DOMAIN,appcloud2.zhihu.com,REJECT
 
-//DO NOT GET CDN-BASED IP
+# DO NOT GET CDN-BASED IP
 DOMAIN,118.89.204.198,REJECT
 
 USER-AGENT,AVOS*,REJECT

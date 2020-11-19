@@ -1,0 +1,11 @@
+#!name=Cron NeteaseMusic
+#!desc=Cron NeteaseMusic
+#!system=ios
+
+# subscribe：https://raw.githubusercontent.com/adolphor/Rules/main/Surge/sgmodule/NeteaseMusic.sgmodule
+# author：onewayticket255
+# source：https://github.com/chavyleung/scripts/tree/master/neteasemusic
+# update：Jun 16, 2020
+
+[Script]
+Cron neteasemusic = type=cron,cronexp=30 31 8 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/adolphor/Rules/main/Surge/js-list/neteasemusic/neteasemusic.js

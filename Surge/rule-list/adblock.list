@@ -8,7 +8,7 @@ DOMAIN-KEYWORD,adwords
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,crashlytics
 DOMAIN-KEYWORD,domob
-DOMAIN-KEYWORD,duomeng
+DOMAIN-KEYWORD,duomengbce.baidu.com
 DOMAIN-KEYWORD,dwtrack
 DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,lianmeng
@@ -1464,7 +1464,6 @@ DOMAIN-SUFFIX,baidutv.baidu.com
 DOMAIN-SUFFIX,baiduzhidahao.cc
 DOMAIN-SUFFIX,banlv.baidu.com
 DOMAIN-SUFFIX,bar.baidu.com
-DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,bdimg.share.baidu.com
 DOMAIN-SUFFIX,bdplus.baidu.com
 DOMAIN-SUFFIX,boscdn.bpc.baidu.com
@@ -4793,7 +4792,6 @@ DOMAIN-SUFFIX,baidutv.baidu.com
 DOMAIN-SUFFIX,baiduzhidahao.cc
 DOMAIN-SUFFIX,banlv.baidu.com
 DOMAIN-SUFFIX,bar.baidu.com
-DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,bdimg.share.baidu.com
 DOMAIN-SUFFIX,bdplus.baidu.com
 DOMAIN-SUFFIX,boscdn.bpc.baidu.com

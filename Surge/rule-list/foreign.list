@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,1drv.com // safeincloud
 DOMAIN-SUFFIX,500px.com // picture website
 DOMAIN-SUFFIX,64clouds.com
 DOMAIN-SUFFIX,api.segment.io // docker
+DOMAIN-SUFFIX,docker.io // docker
 DOMAIN-SUFFIX,akamaized.net // 外国CDN网站，Microsoft Office 使用
 DOMAIN-SUFFIX,azurewebsites.net // ci网站，Microsoft Office 使用
 DOMAIN-SUFFIX,amazon.com // amazon
@@ -33,6 +34,7 @@ DOMAIN-SUFFIX,ilovepdf.com
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jekyllthemes.org
 DOMAIN-SUFFIX,kapeli.com // dash
+DOMAIN-SUFFIX,macbartender.com // bartender
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,mycdn.co
 DOMAIN-SUFFIX,microsoft.com
@@ -51,6 +53,7 @@ DOMAIN-SUFFIX,rubygems.org // ruby
 DOMAIN-SUFFIX,sw-update.obdev.at // little snitch
 DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,seagate.com
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,textnow.com // 美国虚拟电话卡
 DOMAIN-SUFFIX,travis-ci.org // IT

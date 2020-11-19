@@ -1,3 +1,5 @@
+PROCESS-NAME,/Applications/ClashX Pro.app/Contents/MacOS/ClashX Pro
+
 DOMAIN-SUFFIX,atrandys.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,zqq.red
@@ -12,24 +14,17 @@ DOMAIN-SUFFIX,myfastcdn.com
 DOMAIN-SUFFIX,sosoyunpan.com
 DOMAIN-SUFFIX,wowenda.com
 DOMAIN-SUFFIX,sydneytoday.com
+DOMAIN-SUFFIX,terrychan.me
 DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,gif-china.cc
 DOMAIN-SUFFIX,btbtdy.la
 DOMAIN-SUFFIX,chromeba.net
-
-DOMAIN-KEYWORD,blogspot // blogspot
-DOMAIN-KEYWORD,dropbox // dropbox
-DOMAIN-KEYWORD,facebook // facebook
-DOMAIN-KEYWORD,gmail // google
-DOMAIN-KEYWORD,google // google Inc
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,oculus
-DOMAIN-KEYWORD,twitter // twitter
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
-DOMAIN-KEYWORD,v2ray
+DOMAIN-SUFFIX,233yun.xyz
 
 DOMAIN-SUFFIX,chua.pro // surge script
+DOMAIN-SUFFIX,surge.run
+DOMAIN-SUFFIX,nssurge.com // surge官网
+DOMAIN-SUFFIX,nssurge.zendesk.com // surge
 DOMAIN-SUFFIX,efan.in
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fb.com // facebook
@@ -41,10 +36,8 @@ DOMAIN-SUFFIX,instagram.com // Added for webpage: i.instagram.com:443
 DOMAIN-SUFFIX,lanyus.com // lanyus
 DOMAIN-SUFFIX,limbopro.xyz
 DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,nssurge.com // surge官网
 DOMAIN-SUFFIX,reddit.com // Added for webpage: www.reddit.com:443
 DOMAIN-SUFFIX,rfa.org
-DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,szccmdj.com.cn // 大头官网
 DOMAIN-SUFFIX,ssr.tools
 DOMAIN-SUFFIX,scdn.co
